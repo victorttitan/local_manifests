@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  	<remote name="pixelexperience"
+		fetch="https://github.com/PixelExperience"
+		revision="thirteen" />
+		
+ 	<!-- Device repos -->
+	<project name="victorttitan/device_motorola_beckham" path="device/motorola/beckham" remote="github" revision="thirteen" />
+	<project name="victorttitan/device_motorola_sdm660-common" path="device/motorola/sdm660-common" remote="github" revision="thirteen" />
+	<project name="victorttitan/android_kernel_motorola_msm8998" path="kernel/motorola/msm8998" remote="github" revision="thirteen" />
+	<project name="victorttitan/android_vendor_motorola_beckham" path="vendor/motorola/beckham" remote="github" revision="thirteen" />
+	<project name="victorttitan/android_vendor_motorola_sdm-660" path="vendor/motorola/sdm660-common" remote="github" revision="thirteen" />
+	
+	<!-- Dependencies -->
+	<project name="hardware_motorola" path="hardware/motorola" remote="pixelexperience" />
+</manifest>
