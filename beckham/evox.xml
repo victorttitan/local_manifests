@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  	<remote name="pixelexperience"
-		fetch="https://github.com/PixelExperience"
+  	<remote name="pixelexperience-devices"
+		fetch="https://github.com/PixelExperience-Devices"
 		revision="thirteen" />
 
 	<remote name="pixelexperience-blobs"
@@ -9,8 +9,8 @@
 		revision="thirteen" />
 		
  	<!-- Device repos -->
-	<project name="device_motorola_beckham" path="device/motorola/beckham" remote="pixelexperience" revision="thirteen" />
-	<project name="device_motorola_sdm660-common" path="device/motorola/sdm660-common" remote="pixelexperience" revision="thirteen" />
+	<project name="device_motorola_beckham" path="device/motorola/beckham" remote="pixelexperience-devices" revision="thirteen" />
+	<project name="device_motorola_sdm660-common" path="device/motorola/sdm660-common" remote="pixelexperience-devices" revision="thirteen" />
 	<project name="android_kernel_motorola_msm8998" path="kernel/motorola/msm8998" remote="pixelexperience" revision="thirteen" />
 	<project name="android_vendor_motorola_beckham" path="vendor/motorola/beckham" remote="pixelexperience-blobs" revision="thirteen" />
 	<project name="android_vendor_motorola_sdm-660" path="vendor/motorola/sdm660-common" remote="pixelexperience-blobs" revision="thirteen" />
