@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
+	<remote name="pixelexperience"
+		fetch="https://github.com/PixelExperience"
+		revision="thirteen" />
   	<remote name="pixelexperience-devices"
 		fetch="https://github.com/PixelExperience-Devices"
 		revision="thirteen" />
