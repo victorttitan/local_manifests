@@ -19,5 +19,5 @@
 	<project name="android_vendor_motorola_sdm-660" path="vendor/motorola/sdm660-common" remote="pixelexperience-blobs" revision="thirteen" />
 	
 	<!-- Dependencies -->
-	<project name="hardware_motorola" path="hardware/motorola" remote="pixelexperience-devices" />
+	<project name="hardware_motorola" path="hardware/motorola" remote="pixelexperience" />
 </manifest>
