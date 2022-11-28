@@ -9,11 +9,14 @@
 	<remote name="pixelexperience-blobs"
 		fetch="https://gitlab.pixelexperience.org/android/vendor-blobs"
 		revision="thirteen" />
+		<remote name="lineageos"
+		fetch="https://github.com/lineageos"
+		revision="lineage-20" />
 		
  	<!-- Device repos -->
 	<project name="device_motorola_beckham" path="device/motorola/beckham" remote="pixelexperience-devices" revision="thirteen" />
 	<project name="device_motorola_sdm660-common" path="device/motorola/sdm660-common" remote="pixelexperience-devices" revision="thirteen" />
-	<project name="kernel_motorola_msm8998" path="kernel/motorola/msm8998" remote="pixelexperience-devices" revision="thirteen" />
+	<project name="android_kernel_motorola_msm8998" path="kernel/motorola/msm8998" remote="lineageos" revision="lineage-20" />
 	<project name="vendor_motorola_beckham" path="vendor/motorola/beckham" remote="pixelexperience-blobs" revision="thirteen" />
 	<project name="vendor_motorola_sdm660-common" path="vendor/motorola/sdm660-common" remote="pixelexperience-blobs" revision="thirteen" />
 	
