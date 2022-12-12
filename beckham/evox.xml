@@ -19,4 +19,6 @@
 	
 	<!-- Dependencies -->
 	<project name="hardware_motorola" path="hardware/motorola" remote="pixelexperience" />
+	<project name="external_bson" path="external/bson" remote="pixelexperience" />
+	<project name="system_qcom" path="system/qcom" remote="pixelexperience" />
 </manifest>
