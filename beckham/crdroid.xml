@@ -1,26 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-	<remote name="pixelexperience"
-		fetch="https://github.com/PixelExperience"
-		revision="thirteen" />
-  	<remote name="pixelexperience-devices"
-		fetch="https://github.com/PixelExperience-Devices"
-		revision="thirteen" />
-	<remote name="pixelexperience-blobs"
-		fetch="https://gitlab.pixelexperience.org/android/vendor-blobs"
-		revision="thirteen" />
-		<remote name="lineageos"
+	<remote name="lineageos-blobs"
+		fetch="https://gitlab.com/the-muppets"
+		revision="lineage-20" />
+	<remote name="lineageos"
 		fetch="https://github.com/lineageos"
 		revision="lineage-20" />
 		
  	<!-- Device repos -->
-	<project name="device_motorola_beckham" path="device/motorola/beckham" remote="pixelexperience-devices" revision="thirteen" />
-	<project name="device_motorola_sdm660-common" path="device/motorola/sdm660-common" remote="pixelexperience-devices" revision="thirteen" />
+	<project name="android_device_motorola_beckham" path="device/motorola/beckham" remote="lineageos" revision="lineage-20" />
+	<project name="android_device_motorola_sdm660-common" path="device/motorola/sdm660-common" remote="lineageos" revision="lineage-20" />
 	<project name="android_kernel_motorola_msm8998" path="kernel/motorola/msm8998" remote="lineageos" revision="lineage-20" />
-	<project name="vendor_motorola_beckham" path="vendor/motorola/beckham" remote="pixelexperience-blobs" revision="thirteen" />
-	<project name="vendor_motorola_sdm660-common" path="vendor/motorola/sdm660-common" remote="pixelexperience-blobs" revision="thirteen" />
+	<project name="proprietary_vendor_motorola_beckham" path="vendor/motorola/beckham" remote="lineageos-blobs" revision="lineage-20" />
+	<project name="proprietary_vendor_motorola_sdm660-common" path="vendor/motorola/sdm660-common" remote="lineageos-blobs" revision="lineage-20" />
 	
 	<!-- Dependencies -->
-	<project name="hardware_motorola" path="hardware/motorola" remote="pixelexperience" />
-        <project name="external_bson" path="external/bson" remote="pixelexperience" />
+	<project name="android_hardware_motorola" path="hardware/motorola" remote="lineageos" />
+        <project name="android_external_bson" path="external/bson" remote="lineageos" />
+	<project name="android_system_qcom" path="system/qcom" remote="lineageos" />
+	<project name="android_hardware_lineage_compat" path="hardware/lineage/compat" remote="lineageos" revision="lineage-20.0" />
 </manifest>
